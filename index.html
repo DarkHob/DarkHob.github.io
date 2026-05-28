@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>José Rosas | Portafolio</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo">José<span>Rosas</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <span class="badge">Desarrollador de Software</span>
+
+        <h1>
+          Hola, soy <span>José Rosas</span>
+        </h1>
+
+        <p>
+          Desarrollador enfocado en crear soluciones digitales y físicas mediante
+          aplicaciones móviles, sitios web, programas de escritorio, automatización,
+          integración de sistemas y proyectos con hardware.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#proyectos" class="btn primary">Ver proyectos</a>
+          <a href="#contacto" class="btn secondary">Contactarme</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-card">
+          <img src="assets/img/perfil.jpeg" alt="Foto de perfil de José Rosas">
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+
+      <div class="about-content">
+        <p>
+          Soy desarrollador de software con experiencia en aplicaciones móviles,
+          desarrollo web, programas de escritorio, personalización de tiendas Shopify
+          y proyectos con hardware. He trabajado con tecnologías como Flutter,
+          Kotlin, Python, PyQt6, HTML, CSS, JavaScript, Liquid, Arduino UNO y ESP32.
+        </p>
+
+        <p>
+          Me gusta construir soluciones prácticas que combinen diseño, lógica de
+          programación e integración con dispositivos físicos. He desarrollado apps
+          móviles, interfaces web, programas en Python, soluciones para e-commerce
+          y proyectos electrónicos aplicados a problemas reales.
+        </p>
+
+        <p>
+          También he realizado soluciones de integración para programas de terceros,
+          conectando aplicaciones Android con software de escritorio mediante
+          servidores locales, comunicación en red y puertos COM virtuales creados
+          con com0com.
+        </p>
+
+        <p>
+          Mi objetivo es seguir creciendo como desarrollador, creando proyectos
+          funcionales, ordenados y adaptados a las necesidades reales de los usuarios.
+        </p>
+      </div>
+    </section>
+
+    <!-- TECNOLOGÍAS -->
+    <section id="tecnologias" class="section">
+      <h2>Tecnologías</h2>
+
+      <div class="tech-grid">
+
+        <div class="tech-card">
+          <h3>Mobile</h3>
+          <p>
+            Desarrollo de aplicaciones móviles para Android con interfaces funcionales
+            y lógica de negocio.
+          </p>
+          <div class="tags">
+            <div class="tags">
+
+              <span class="tech-badge">
+                <span class="tech-logo">
+                  <svg preserveAspectRatio="xMidYMid" viewBox="0 0 256 317">
+                    <defs>
+                      <linearGradient x1="4%" y1="27%" x2="75.9%" y2="52.9%" id="flutterGradient">
+                        <stop offset="0%"/>
+                        <stop stop-opacity="0" offset="100%"/>
+                      </linearGradient>
+                    </defs>
+                    <path fill="#47C5FB" d="M158 0 0 158l49 48L255 0zM157 145l-85 85 49 50 49-49 85-86z"/>
+                    <path fill="#00569E" d="m121 280 37 37h97l-85-86z"/>
+                    <path fill="#00B5F8" d="m72 230 48-48 50 49-49 49z"/>
+                    <path fill-opacity=".8" fill="url(#flutterGradient)" d="m121 280 41-14 4-31z"/>
+                  </svg>
+                </span>
+                Flutter
+              </span>
+
+              <span class="tech-badge">
+                <span class="tech-logo">
+                  <svg viewBox="0 0 256 256" preserveAspectRatio="xMidYMid"><defs><radialGradient id="dart__a" cx="50%" cy="50.002%" r="50.004%" fx="50%" fy="50.002%" gradientTransform="matrix(1 0 0 .99985 0 0)"><stop offset="0%" stop-color="#FFF" stop-opacity=".1"/><stop offset="100%" stop-color="#FFF" stop-opacity="0"/></radialGradient></defs><path fill="#01579B" d="M52.209 203.791 8.413 159.995C3.218 154.67 0 147.141 0 139.782c0-3.407 1.92-8.733 3.369-11.782l40.427-84.204 8.413 159.995Z"/><path fill="#40C4FF" d="M202.116 52.209 158.32 8.413C154.5 4.573 146.538 0 139.8 0c-5.796 0-11.48 1.167-15.15 3.369L43.815 43.796l158.301 8.413ZM104.418 256h106.111v-45.471l-79.16-25.276-72.422 25.276z"/><path fill="#29B6F6" d="M43.796 180.209c0 13.513 1.694 16.826 8.413 23.582l6.738 6.738h151.582l-74.097-84.204-92.636-82.53V180.21Z"/><path fill="#01579B" d="M178.534 43.777H43.796L210.529 210.51H256V106.093L202.097 52.19c-7.566-7.585-14.285-8.413-23.563-8.413Z"/><path fill="#FFF" d="M53.903 205.466c-6.738-6.756-8.413-13.419-8.413-25.257V45.47l-1.675-1.675v136.413c-.02 11.838-.02 15.113 10.088 25.257l5.044 5.044-5.044-5.044Z" opacity=".2"/><path fill="#263238" d="M254.325 104.418v104.417h-45.471l1.675 1.694H256V106.093z" opacity=".2"/><path fill="#FFF" d="M202.116 52.209c-8.356-8.357-15.188-8.413-25.257-8.413H43.815l1.675 1.675h131.369c5.025 0 17.71-.847 25.257 6.738Z" opacity=".2"/><path fill="url(#dart__a)" d="m254.325 104.418-52.209-52.21L158.32 8.414C154.5 4.573 146.538 0 139.8 0c-5.796 0-11.48 1.167-15.15 3.369L43.815 43.796 3.388 128c-1.45 3.068-3.37 8.394-3.37 11.782 0 7.359 3.238 14.868 8.414 20.213l40.351 40.07c.96 1.185 2.09 2.39 3.426 3.726l1.675 1.675 5.044 5.044 43.796 43.796 1.675 1.675H210.49v-45.47h45.471V106.092l-1.637-1.675Z" opacity=".2"/></svg>
+                </span>
+                Dart
+              </span>
+              <span class="tech-badge">
+                <span class="tech-logo">
+                  <svg viewBox="0 0 256 256" preserveAspectRatio="xMidYMid"><defs><linearGradient x1="99.991%" y1="-.011%" x2=".01%" y2="100.01%" id="kotlin__a"><stop stop-color="#E44857" offset=".344%"/><stop stop-color="#C711E1" offset="46.89%"/><stop stop-color="#7F52FF" offset="100%"/></linearGradient></defs><path fill="url(#kotlin__a)" d="M256 256H0V0h256L128 127.949z"/></svg>
+                </span>
+                Kotlin
+              </span>
+              <span class="tech-badge">
+                <span class="tech-logo">
+                  <svg preserveAspectRatio="xMidYMid" viewBox="0 0 256 150"><path fill="#34A853" d="M255.285 143.47c-.084-.524-.164-1.042-.251-1.56a128.119 128.119 0 0 0-12.794-38.288 128.778 128.778 0 0 0-23.45-31.86 129.166 129.166 0 0 0-22.713-18.005c.049-.08.09-.168.14-.25 2.582-4.461 5.172-8.917 7.755-13.38l7.576-13.068c1.818-3.126 3.632-6.26 5.438-9.386a11.776 11.776 0 0 0 .662-10.484 11.668 11.668 0 0 0-4.823-5.536 11.85 11.85 0 0 0-5.004-1.61 11.963 11.963 0 0 0-2.218.018 11.738 11.738 0 0 0-8.968 5.798c-1.814 3.127-3.628 6.26-5.438 9.386l-7.576 13.069c-2.583 4.462-5.173 8.918-7.755 13.38-.282.487-.567.973-.848 1.467-.392-.157-.78-.313-1.172-.462-14.24-5.43-29.688-8.4-45.836-8.4-.442 0-.879 0-1.324.006-14.357.143-28.152 2.64-41.022 7.12a119.434 119.434 0 0 0-4.42 1.642c-.262-.455-.532-.911-.79-1.367-2.583-4.462-5.173-8.918-7.755-13.38L65.123 15.25c-1.818-3.126-3.632-6.259-5.439-9.386A11.736 11.736 0 0 0 48.5.048 11.71 11.71 0 0 0 43.49 1.66a11.716 11.716 0 0 0-4.077 4.063c-.281.474-.532.967-.742 1.473a11.808 11.808 0 0 0-.365 8.188c.259.786.594 1.554 1.023 2.296a3973.32 3973.32 0 0 1 5.439 9.386c2.53 4.357 5.054 8.713 7.58 13.069 2.582 4.462 5.168 8.918 7.75 13.38.02.038.046.075.065.112A129.184 129.184 0 0 0 45.32 64.38a129.693 129.693 0 0 0-22.2 24.015 127.737 127.737 0 0 0-9.34 15.24 128.238 128.238 0 0 0-10.843 28.764 130.743 130.743 0 0 0-1.951 9.524c-.087.518-.167 1.042-.247 1.56A124.978 124.978 0 0 0 0 149.118h256c-.205-1.891-.449-3.77-.734-5.636l.019-.012Z"/><path fill="#202124" d="M194.59 113.712c5.122-3.41 5.867-11.3 1.661-17.62-4.203-6.323-11.763-8.682-16.883-5.273-5.122 3.41-5.868 11.3-1.662 17.621 4.203 6.322 11.764 8.682 16.883 5.272ZM78.518 108.462c4.206-6.321 3.46-14.21-1.662-17.62-5.123-3.41-12.68-1.05-16.886 5.27-4.203 6.323-3.458 14.212 1.662 17.622 5.122 3.41 12.683 1.05 16.886-5.272Z"/></svg>
+                </span>
+                Android
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <h3>Escritorio</h3>
+          <p>
+            Creación de programas de escritorio con interfaces gráficas para automatizar
+            tareas y gestionar información.
+          </p>
+          <div class="tags">
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg fill="none" viewBox="16 16 32 32"><path fill="url(#python__a)" d="M31.885 16c-8.124 0-7.617 3.523-7.617 3.523l.01 3.65h7.752v1.095H21.197S16 23.678 16 31.876c0 8.196 4.537 7.906 4.537 7.906h2.708v-3.804s-.146-4.537 4.465-4.537h7.688s4.32.07 4.32-4.175v-7.019S40.374 16 31.885 16zm-4.275 2.454a1.394 1.394 0 1 1 0 2.79 1.393 1.393 0 0 1-1.395-1.395c0-.771.624-1.395 1.395-1.395z"/><path fill="url(#python__b)" d="M32.115 47.833c8.124 0 7.617-3.523 7.617-3.523l-.01-3.65H31.97v-1.095h10.832S48 40.155 48 31.958c0-8.197-4.537-7.906-4.537-7.906h-2.708v3.803s.146 4.537-4.465 4.537h-7.688s-4.32-.07-4.32 4.175v7.019s-.656 4.247 7.833 4.247zm4.275-2.454a1.393 1.393 0 0 1-1.395-1.395 1.394 1.394 0 1 1 1.395 1.395z"/><defs><linearGradient id="python__a" x1="19.075" x2="34.898" y1="18.782" y2="34.658" gradientUnits="userSpaceOnUse"><stop stop-color="#387EB8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="python__b" x1="28.809" x2="45.803" y1="28.882" y2="45.163" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE052"/><stop offset="1" stop-color="#FFC331"/></linearGradient></defs></svg>
+              </span>
+              Python
+            </span>
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 54 43"><path fill="#0c0" d="M1 42V10l9-9h43v33l-9 9z"/><text x="9" y="32" fill="#FFF" font-family="Arial" font-size="32">Qt</text></svg>
+              </span>
+              PyQt6
+            </span>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <h3>Frontend Web</h3>
+          <p>
+            Desarrollo de páginas e interfaces web responsivas, modernas y adaptadas
+            a diferentes dispositivos.
+          </p>
+          <div class="tags">
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 452 520"><path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52"/><path fill="#ef652a" d="M226 472l149-41 35-394H226"/><path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/><path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"/></svg>
+              </span>
+              HTML
+            </span>
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 512 512"><path fill="#264de4" d="M71.357 460.819 30.272 0h451.456l-41.129 460.746L255.724 512z"/><path fill="#2965f1" d="m405.388 431.408 35.148-393.73H256v435.146z"/><path fill="#ebebeb" d="m124.46 208.59 5.065 56.517H256V208.59zm-5.041-57.875H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/><path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/></svg>
+              </span>
+              CSS
+            </span>
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 1052 1052"><path fill="#f0db4f" d="M0 0h1052v1052H0z"/><path d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z" fill="#323330"/></svg>
+              </span>
+              JavaScript
+            </span>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <h3>E-commerce</h3>
+          <p>
+            Personalización de tiendas Shopify mediante edición de temas, secciones
+            visuales y estilos.
+          </p>
+          <div class="tags">
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 256 292" preserveAspectRatio="xMidYMid"><path d="M223.774 57.34c-.201-1.46-1.48-2.268-2.537-2.357-1.055-.088-23.383-1.743-23.383-1.743s-15.507-15.395-17.209-17.099c-1.703-1.703-5.029-1.185-6.32-.805-.19.056-3.388 1.043-8.678 2.68-5.18-14.906-14.322-28.604-30.405-28.604-.444 0-.901.018-1.358.044C129.31 3.407 123.644.779 118.75.779c-37.465 0-55.364 46.835-60.976 70.635-14.558 4.511-24.9 7.718-26.221 8.133-8.126 2.549-8.383 2.805-9.45 10.462C21.3 95.806.038 260.235.038 260.235l165.678 31.042 89.77-19.42S223.973 58.8 223.775 57.34zM156.49 40.848l-14.019 4.339c.005-.988.01-1.96.01-3.023 0-9.264-1.286-16.723-3.349-22.636 8.287 1.04 13.806 10.469 17.358 21.32zm-27.638-19.483c2.304 5.773 3.802 14.058 3.802 25.238 0 .572-.005 1.095-.01 1.624-9.117 2.824-19.024 5.89-28.953 8.966 5.575-21.516 16.025-31.908 25.161-35.828zm-11.131-10.537c1.617 0 3.246.549 4.805 1.622-12.007 5.65-24.877 19.88-30.312 48.297l-22.886 7.088C75.694 46.16 90.81 10.828 117.72 10.828z" fill="#95BF46"/><path d="M221.237 54.983c-1.055-.088-23.383-1.743-23.383-1.743s-15.507-15.395-17.209-17.099c-.637-.634-1.496-.959-2.394-1.099l-12.527 256.233 89.762-19.418S223.972 58.8 223.774 57.34c-.201-1.46-1.48-2.268-2.537-2.357" fill="#5E8E3E"/><path d="M135.242 104.585l-11.069 32.926s-9.698-5.176-21.586-5.176c-17.428 0-18.305 10.937-18.305 13.693 0 15.038 39.2 20.8 39.2 56.024 0 27.713-17.577 45.558-41.277 45.558-28.44 0-42.984-17.7-42.984-17.7l7.615-25.16s14.95 12.835 27.565 12.835c8.243 0 11.596-6.49 11.596-11.232 0-19.616-32.16-20.491-32.16-52.724 0-27.129 19.472-53.382 58.778-53.382 15.145 0 22.627 4.338 22.627 4.338" fill="#FFF"/></svg>
+              </span>
+              Liquid
+            </span>
+            
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 512 512"><path fill="#264de4" d="M71.357 460.819 30.272 0h451.456l-41.129 460.746L255.724 512z"/><path fill="#2965f1" d="m405.388 431.408 35.148-393.73H256v435.146z"/><path fill="#ebebeb" d="m124.46 208.59 5.065 56.517H256V208.59zm-5.041-57.875H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/><path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/></svg>
+              </span>
+              CSS
+            </span>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <h3>Hardware / IoT</h3>
+          <p>
+            Desarrollo de proyectos con microcontroladores, sensores y componentes
+            electrónicos.
+          </p>
+          <div class="tags">
+            <span>Arduino UNO</span>
+            <span>ESP32</span>
+            <span class="tech-badge">
+              <span class="tech-logo">
+                <svg viewBox="0 0 274.072 350" xml:space="preserve"><path d="M74.19.005c-1.77.055-3.676.708-5.838 2.415C63.057.377 57.922-.332 53.33 3.826c-7.091-.919-9.395.978-11.141 3.194-1.557-.032-11.648-1.6-16.275 5.303-11.629-1.376-15.305 6.841-11.141 14.502-2.375 3.677-4.836 7.309.718 14.319-1.965 3.904-.747 8.139 3.882 13.265-1.222 5.488 1.18 9.36 5.486 12.378-.806 7.51 6.887 11.876 9.184 13.433.882 4.376 2.72 8.505 11.507 10.789 1.449 6.521 6.73 7.648 11.844 9.017-16.901 9.824-31.396 22.75-31.297 54.466l-2.476 4.417c-19.379 11.785-36.815 49.664-9.55 80.453 1.781 9.637 4.768 16.56 7.427 24.221 3.978 30.873 29.937 45.328 36.783 47.037C68.315 318.26 79 325.512 93.46 330.591c13.631 14.06 28.399 19.417 43.247 19.408.218 0 .439.003.657 0 14.849.009 29.616-5.349 43.248-19.408 14.459-5.079 25.146-12.331 35.179-19.974 6.847-1.709 32.806-16.164 36.783-47.037 2.659-7.661 5.646-14.584 7.427-24.221 27.265-30.791 9.83-68.672-9.551-80.458l-2.479-4.416c.098-31.713-14.396-44.64-31.297-54.466 5.113-1.369 10.395-2.495 11.843-9.017 8.786-2.284 10.626-6.413 11.507-10.789 2.297-1.556 9.99-5.922 9.185-13.433 4.306-3.018 6.708-6.89 5.485-12.378 4.629-5.125 5.848-9.36 3.883-13.265 5.555-7.006 3.09-10.639.719-14.316 4.161-7.662.488-15.878-11.145-14.502-4.627-6.903-14.715-5.335-16.275-5.303-1.746-2.215-4.049-4.113-11.139-3.194-4.593-4.157-9.727-3.448-15.023-1.406-6.289-4.962-10.45-.984-15.203.52-7.614-2.488-9.355.92-13.096 2.308-8.304-1.754-10.827 2.065-14.808 6.098l-4.63-.092c-12.524 7.381-18.746 22.41-20.952 30.135-2.207-7.727-8.414-22.756-20.936-30.135l-4.63.092c-3.986-4.032-6.509-7.852-14.813-6.098C92.907 3.858 91.17.45 83.552 2.938c-3.12-.987-5.989-3.039-9.368-2.934l.006.001z"/><path fill="#BC1142" fill-rule="evenodd" d="M177.65 253.658v-.391c-.119-20.27-18.029-36.609-40.01-36.5-21.979.101-39.709 16.621-39.59 36.891v.39c.11 20.271 18.03 36.61 40.01 36.5 21.981-.1 39.701-16.62 39.59-36.89zm-62.83-104.84c-16.489-10.811-40.26-3.83-53.079 15.57-12.83 19.41-9.86 43.9 6.64 54.7 16.49 10.811 40.25 3.84 53.08-15.57 12.82-19.411 9.85-43.9-6.641-54.7zm44.511-1.961c-16.49 10.811-19.47 35.301-6.64 54.702 12.819 19.41 36.59 26.379 53.08 15.58 16.489-10.811 19.459-35.301 6.64-54.702-12.83-19.41-36.591-26.379-53.08-15.58zM32.392 166.478c-29.54 16.87-24.41 54.411-8.471 67.23 14.49 6.431 26.28-72 8.471-67.23zm205.769-.98c-17.81-4.77-6.011 73.67 8.47 67.231 15.939-12.811 21.07-50.361-8.47-67.231zm-60.5-58.4c-11.32 1.9 54.25 59.16 55.26 46.38 1.04-33.32-24.53-51.57-55.26-46.38zm-84.9-.98c-30.729-5.19-56.289 13.069-55.26 46.39 1.01 12.769 66.58-44.49 55.26-46.39zm44.139-7.77c-18.34-.48-35.939 13.61-35.979 21.78-.05 9.931 14.5 20.101 36.11 20.351 22.06.16 36.14-8.131 36.21-18.381.079-11.61-20.07-23.931-36.341-23.75zm1.121 203.6c-15.891-.39-40.261 6.37-39.961 15.03-.25 5.91 19.131 22.959 38.9 22.109 19.09.33 38.811-16.699 38.55-24.23-.039-7.759-21.499-13.599-37.489-12.909zm-59.06-45.969c-13.061-15.16-30.029-24.201-41.02-17.51-7.351 5.59-8.69 24.619 1.77 43.319 15.51 22.29 37.34 24.521 46.33 19.101 9.5-7.101 4.311-31.201-7.08-44.91zm115.84-4.361c-12.32 14.43-19.17 40.75-10.189 49.22 8.59 6.59 31.649 5.67 48.689-17.97 12.37-15.88 8.221-42.39 1.16-49.431-10.5-8.119-25.561 2.271-39.66 18.181z" clip-rule="evenodd"/><path fill="#75A928" fill-rule="evenodd" d="M49.247 32.48c25.851 8.78 49.17 20.491 68.71 36.6 22.939-10.85 7.12-38.21-4.07-49.07-.57 2.87-1.209 4.68-1.949 5.22-3.641-3.97-6.621-8.03-11.311-11.85-.02 2.24 1.11 4.68-1.68 6.46-2.52-3.44-5.92-6.51-10.44-9.11 2.181 3.81.38 4.96-.79 6.54-3.449-3-6.729-6.04-13.09-8.4 1.74 2.15 4.17 4.25 1.59 6.72-3.55-2.25-7.119-4.5-15.56-6.1 1.899 2.15 5.84 4.3 3.45 6.46-4.461-1.73-9.391-2.99-14.851-3.72 2.61 2.19 4.79 4.32 2.65 6.01-4.771-1.49-11.34-3.49-17.77-1.76l4.07 4.15c.45.56-9.52.43-16.09.53 2.4 3.39 4.84 6.65 6.27 12.47-.65.67-3.91.29-6.98 0 3.15 6.73 8.62 8.43 9.9 11.31-1.93 1.48-4.6 1.1-7.52.09 2.27 4.75 7.03 8 10.79 11.85-.95.681-2.61 1.091-6.54.62 3.47 3.74 7.67 7.17 12.64 10.25-.88 1.04-3.91.99-6.72 1.061 4.51 4.479 10.3 6.799 15.74 9.729-2.71 1.88-4.65 1.44-6.72 1.41 3.839 3.21 10.38 4.88 16.44 6.81-1.149 1.82-2.3 2.32-4.771 2.83 6.42 3.61 15.621 1.96 18.211 3.801-.62 1.81-2.391 2.989-4.51 3.979 10.34.61 38.609-.38 44.029-22.101C101.796 63.46 82.476 49.61 49.247 32.48zm176.309 0c-33.219 17.13-52.539 30.98-63.119 42.79 5.42 21.721 33.689 22.711 44.029 22.101-2.119-.99-3.889-2.17-4.51-3.979 2.59-1.841 11.791-.19 18.211-3.801-2.471-.51-3.621-1.01-4.771-2.83 6.061-1.93 12.602-3.6 16.441-6.81-2.07.03-4.01.47-6.721-1.41 5.439-2.931 11.23-5.25 15.74-9.729-2.811-.07-5.84-.021-6.721-1.061 4.971-3.08 9.17-6.51 12.641-10.25-3.93.471-5.59.061-6.539-.62 3.76-3.851 8.52-7.1 10.789-11.85-2.92 1.01-5.59 1.39-7.52-.09 1.279-2.88 6.75-4.58 9.9-11.31-3.07.29-6.33.67-6.98 0 1.43-5.82 3.879-9.09 6.279-12.47-6.58-.1-16.549.03-16.1-.53l4.07-4.16c-6.42-1.73-13 .28-17.77 1.77-2.141-1.69.039-3.83 2.648-6.01-5.459.73-10.389 1.98-14.85 3.71-2.379-2.15 1.551-4.3 3.451-6.45-8.441 1.6-12.012 3.85-15.561 6.1-2.58-2.47-.15-4.57 1.59-6.72-6.359 2.36-9.641 5.4-13.09 8.4-1.17-1.58-2.971-2.74-.791-6.54-4.52 2.6-7.92 5.67-10.43 9.1-2.799-1.78-1.67-4.21-1.68-6.45-4.699 3.82-7.68 7.88-11.32 11.85-.73-.54-1.379-2.35-1.949-5.22-11.189 10.86-27.01 38.221-4.061 49.07 19.524-16.11 42.844-27.821 68.694-36.601z" clip-rule="evenodd"/></svg>
+              </span>
+              RaspberryPi
+            </span>
+            <span>Sensores</span>
+            <span>Automatización</span>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <h3>Integraciones</h3>
+          <p>
+            Conexión entre aplicaciones móviles y software de escritorio mediante
+            servidores locales y comunicación por puertos virtuales.
+          </p>
+          <div class="tags">
+            <span>Servidor local</span>
+            <span>com0com</span>
+            <span>Puertos COM virtuales</span>
+            <span>Android-PC</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section">
+      <h2>Proyectos</h2>
+
+      <div class="projects-grid">
+
+        <!-- PROYECTO 1 -->
+        <article class="project-card">
+          <img src="assets/img/registrollamadas.png" alt="Integración Android PC">
+
+          <div class="project-info">
+            <h3>Integración Android-PC para Registro de Llamadas</h3>
+
+            <p>
+              Solución desarrollada en Kotlin para leer notificaciones entrantes
+              de WhatsApp, extraer números telefónicos y enviarlos a un software
+              de escritorio mediante un servidor local.
+            </p>
+
+            <p>
+              Para conectar la app con el programa de PC, utilicé puertos COM
+              virtuales creados con com0com, permitiendo simular una entrada
+              telefónica compatible con el registrador de llamadas del sistema.
+            </p>
+
+            <div class="tags">
+              <span>Kotlin</span>
+              <span>Android</span>
+              <span>Servidor local</span>
+              <span>com0com</span>
+              <span>Puertos COM virtuales</span>
+              <span>Automatización</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- PROYECTO 2 -->
+        <article class="project-card">
+          <img src="assets/img/controldeacceso.png" alt="Control de acceso por QR con ESP32">
+
+          <div class="project-info">
+            <h3>Sistema de Control de Acceso por QR</h3>
+
+            <p>
+              Proyecto de nivel intermedio desarrollado con ESP32 para validar
+              códigos QR y activar una cerradura electrónica, permitiendo controlar
+              el acceso físico de forma automatizada.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>QR</span>
+              <span>Cerradura electrónica</span>
+              <span>IoT</span>
+              <span>Automatización</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+        <!-- PROYECTO 3 -->
+        <article class="project-card">
+          <img src="assets/img/cancer.png" alt="Aplicaciones móviles">
+
+          <div class="project-info">
+            <h3>Aplicaciones Móviles</h3>
+
+            <p>
+              Desarrollo de aplicaciones móviles usando Flutter y Kotlin, enfocadas
+              en interfaces funcionales, navegación entre pantallas y lógica de
+              aplicación para Android.
+            </p>
+
+            <div class="tags">
+              <span>Flutter</span>
+              <span>Dart</span>
+              <span>Kotlin</span>
+              <span>Android</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+        <!-- PROYECTO 4 -->
+        <article class="project-card">
+          <img src="assets/img/registrador.png" alt="Programas de escritorio con Python">
+
+          <div class="project-info">
+            <h3>Programas de Escritorio con Python</h3>
+
+            <p>
+              Desarrollo de aplicaciones de escritorio con Python para automatizar tareas, organizar información
+              y facilitar procesos.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>PyQt6</span>
+              <span>GUI</span>
+              <span>Automatización</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+        <!-- PROYECTO 5 -->
+        <article class="project-card">
+          <img src="assets/img/perfumes.png" alt="Frontend con HTML CSS y JavaScript">
+
+          <div class="project-info">
+            <h3>Interfaces Web Responsivas</h3>
+
+            <p>
+              Creación de sitios web utilizando HTML, CSS y JavaScript, aplicando
+              diseño responsivo, estructura semántica e interacción mediante
+              manipulación del DOM.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+        <!-- PROYECTO 6 -->
+        <article class="project-card">
+          <img src="assets/img/Relojesplaza.png" alt="Personalización de tiendas Shopify">
+
+          <div class="project-info">
+            <h3>Personalización de Tiendas Shopify</h3>
+
+            <p>
+              Modificación y personalización de tiendas Shopify mediante Liquid
+              y CSS, adaptando secciones, estilos y componentes visuales según
+              las necesidades de cada tienda.
+            </p>
+
+            <div class="tags">
+              <span>Shopify</span>
+              <span>Liquid</span>
+              <span>CSS</span>
+              <span>E-commerce</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://relojesplaza.com/" target="_blank">Visitar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 7 -->
+        <article class="project-card">
+          <img src="assets/img/autito.jpeg" alt="Auto seguidor de línea con Arduino UNO">
+
+          <div class="project-info">
+            <h3>Auto Seguidor de Línea</h3>
+
+            <p>
+              Proyecto electrónico básico realizado con Arduino UNO, sensores
+              infrarrojos y motores DC para detectar una línea y controlar el
+              movimiento del vehículo de forma automática.
+            </p>
+
+            <div class="tags">
+              <span>Arduino UNO</span>
+              <span>Sensores infrarrojos</span>
+              <span>Motores DC</span>
+              <span>Electrónica</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+        <!-- PROYECTO: SISTEMA WEB DE GESTIÓN -->
+        <article class="project-card">
+          <img src="assets/img/alquileres.jpeg" alt="Sistema web de gestión">
+
+          <div class="project-info">
+            <h3>Sistema Web de Gestión de Alquileres e Inventario</h3>
+
+            <p>
+              Sistema web desarrollado para administrar alquileres, inventario,
+              usuarios, clientes, listas de precios e historial de movimientos.
+              El proyecto permite organizar procesos internos, registrar pedidos,
+              controlar materiales y mejorar la gestión de información de una empresa.
+            </p>
+
+            <p>
+              La solución fue construida con un backend en Django y Django REST Framework,
+              junto a un frontend desarrollado con Vue.js y Vite. También incluye consumo
+              de APIs, autenticación mediante token, manejo de rutas, servicios separados
+              y componentes reutilizables.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Django</span>
+              <span>Django REST</span>
+              <span>Vue.js</span>
+              <span>Vite</span>
+              <span>JavaScript</span>
+              <span>Axios</span>
+              <span>JWT</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+        <!-- PROYECTO: DISEÑO 3D -->
+            <article class="project-card">
+              <img src="assets/img/Diseño3D.png" alt="Diseño 3D para impresión 3D">
+
+              <div class="project-info">
+                <h3>Diseño 3D para Impresión 3D</h3>
+
+                <p>
+                  Actualmente estoy aprendiendo diseño y modelado 3D enfocado en la creación
+                  de piezas para impresión 3D, prototipos y componentes físicos que puedan
+                  complementar proyectos de electrónica, automatización o desarrollo personal.
+                </p>
+
+                <div class="tags">
+                  <span class="tech-badge">Diseño 3D</span>
+                  <span class="tech-badge">Impresión 3D</span>
+                  <span class="tech-badge">Modelado 3D</span>
+                  <span class="tech-badge">Prototipado</span>
+                </div>
+
+              </div>
+            </article>
+
+      </div>
+    </section>
+
+    
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section contact">
+      <h2>Contacto</h2>
+
+      <p>
+        Puedes contactarme para colaborar en proyectos, desarrollar soluciones
+        digitales o revisar mis trabajos publicados.
+      </p>
+
+      <div class="contact-links">
+
+        <a href="mailto:rosas4361@gmail.com" class="contact-link">
+          <span class="contact-icon">
+            <!-- SVG CORREO -->
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm8 9 8-5V6l-8 5-8-5v2l8 5z"/>
+            </svg>
+          </span>
+          Correo
+        </a>
+
+        <a href="https://github.com/DarkHob" target="_blank" class="contact-link">
+          <span class="contact-icon">
+            <!-- SVG GITHUB -->
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.97 3.22 9.18 7.69 10.67.56.1.76-.24.76-.54v-2.05c-3.13.68-3.79-1.34-3.79-1.34-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.17 1.73 1.17 1 .1.6 2.63.57 3.08 1.22.1.86-.35 1.27-.65.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.57 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.16.9-.25 1.86-.37 2.82-.38.96.01 1.92.13 2.82.38 2.15-1.46 3.1-1.16 3.1-1.16.61 1.55.23 2.7.11 2.98.72.79 1.16 1.8 1.16 3.03 0 4.33-2.64 5.28-5.15 5.56.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54 4.47-1.49 7.68-5.7 7.68-10.67C23.25 5.48 18.27.5 12 .5z"/>
+            </svg>
+          </span>
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/jose-freddy-rosas-almendras-5a1512294/" target="_blank" class="contact-link">
+          <span class="contact-icon">
+            <!-- SVG LINKEDIN -->
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.83v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.89c0-1.88-.03-4.3-2.62-4.3-2.62 0-3.02 2.05-3.02 4.16V23h-4V8z"/>
+            </svg>
+          </span>
+          LinkedIn
+        </a>
+
+        <a href="assets/cv/cv-jose-rosas.pdf" class="contact-link cv-link" download="CV-Jose-Rosas.pdf">
+          <span class="contact-icon">
+            <!-- SVG CV / DESCARGA -->
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm0 2.5L17.5 8H14V4.5zM12 18l-4-4h2.5v-4h3v4H16l-4 4z"/>
+            </svg>
+          </span>
+          Descargar CV
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 José Rosas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
