@@ -431,11 +431,15 @@ img {
   }
 
   .hero {
-    padding-top: 7rem;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
   }
 
   .hero-buttons {
     flex-direction: column;
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+    gap: 0.8rem;
   }
 
   .btn {
@@ -447,8 +451,17 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .hero-content {
+    text-align: left;
+  }
+
+ .hero-image {
+    margin-top: -1rem;
+    margin-bottom: 0;
+  }
+
   .image-card {
-    width: 230px;
-    height: 230px;
+    width: 210px;
+    height: 210px;
   }
 }
